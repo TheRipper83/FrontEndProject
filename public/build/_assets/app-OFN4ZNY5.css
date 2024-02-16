@@ -1,0 +1,343 @@
+/* app/styles/app.css */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html {
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    Noto Sans,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    Segoe UI Symbol,
+    "Noto Color Emoji";
+  font-size: 100%;
+}
+:root {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  --size-0: 0rem;
+  --size-10: .0625rem;
+  --size-20: .125rem;
+  --size-30: .25rem;
+  --size-40: .5rem;
+  --size-50: .75rem;
+  --size-60: 1rem;
+  --size-70: 1.25rem;
+  --size-80: 1.5rem;
+  --size-90: 1.75rem;
+  --size-100: 2rem;
+  --size-110: 2.25rem;
+  --size-120: 2.5rem;
+  --size-130: 2.75rem;
+  --size-140: 3rem;
+}
+img,
+picture,
+video,
+canvas,
+svg,
+iframe {
+  display: block;
+  max-width: 100%;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  line-height: normal;
+}
+h1 {
+  font-size: 2.986rem;
+}
+h2 {
+  font-size: 2.488rem;
+}
+h3 {
+  font-size: 2.074rem;
+}
+h4 {
+  font-size: 1.728rem;
+}
+h5 {
+  font-size: 1.44rem;
+}
+h6 {
+  font-size: 1.2rem;
+}
+p {
+  font-size: 1rem;
+}
+small {
+  font-size: .694rem;
+}
+body {
+  --primary-color: #fff;
+  --secondary-color: #fff;
+  --primary-text-color: #222;
+  --secondary-text-color: #222;
+  --surface-color: #fff;
+  --bkg-color1: pink;
+  --bkg-color2: lightblue;
+  --bkg-color3: orange;
+  --bkg-color4: green;
+  --bkg-color5: purple;
+}
+body.dark-theme {
+  --primary-color: #bb86fc;
+  --secondary-color: #03dac5;
+  --primary-text-color: #f2f2f2;
+  --secondary-text-color: #aaa;
+  --surface-color: #1F1B24;
+  --bkg-color1: #121212;
+  --bkg-color2: #121212;
+  --bkg-color3: #121212;
+  --bkg-color4: #121212;
+  --bkg-color5: #121212;
+}
+@media (prefers-color-scheme: dark) {
+  body.light-theme {
+    --primary-color: #bb86fc;
+    --secondary-color: #03dac5;
+    --primary-text-color: #f2f2f2;
+    --secondary-text-color: #aaa;
+    --surface-color: #1F1B24;
+    --bkg-color1: #121212;
+    --bkg-color2: #121212;
+    --bkg-color3: #121212;
+    --bkg-color4: #121212;
+    --bkg-color5: #121212;
+  }
+  body {
+    --primary-color: #fff;
+    --secondary-color: #fff;
+    --primary-text-color: #827c7c;
+    --secondary-text-color: #222;
+    --surface-color: #fff;
+    --bkg-color1: #fff;
+    --bkg-color2: lightblue;
+    --bkg-color3: orange;
+    --bkg-color4: green;
+    --bkg-color5: purple;
+  }
+  img {
+    filter: brightness(.6) contrast(1.2);
+  }
+  body.light-theme img {
+    filter: brightness(1) contrast(1);
+  }
+}
+body {
+  background-color: var(--bkg-color1);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+}
+a,
+p {
+  color: var(--primary-text-color);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--secondary-text-color);
+}
+body > header {
+  padding: 16px;
+}
+section {
+  padding-bottom: var(--size-60);
+  padding-left: var(--size-60);
+  padding-right: var(--size-60);
+  padding-top: var(--size-100);
+}
+article {
+  margin-bottom: var(--size-60);
+  padding: var(--size-60);
+}
+section header,
+section .container {
+  margin-bottom: var(--size-60);
+}
+.header {
+  background: var(--bkg-color1);
+}
+.header__logo {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.header__nav {
+  margin-top: var(--size-40);
+}
+.header__menu {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header__menu-item {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  margin-bottom: 2px;
+  flex: 1;
+  text-align: center;
+}
+.header__menu-link {
+  display: block;
+  padding: var(--size-40);
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.header__menu-link:hover {
+  box-shadow: 0 var(--size-40) var(--size-60) 0 #0003;
+}
+button {
+  background: var(--primary-color);
+  align-items: center;
+  padding: var(--size-40) var(--size-60);
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto,
+    sans-serif;
+  border-radius: 4px;
+  border: none;
+  box-shadow:
+    0 .5px 1px #0000001a,
+    inset 0 .5px .5px #ffffff80,
+    0 0 0 .5px #0000001f;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-dark-mode {
+  position: fixed;
+  right: var(--size-60);
+}
+.projects {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+.project-card {
+  background-color: var(--surface-color);
+  box-shadow: 0 4px 8px #0003;
+  transition: .3s;
+  border-radius: 4px;
+  margin: var(--size-60);
+}
+.project-card:hover {
+  box-shadow: 0 var(--size-40) var(--size-60) 0 #0003;
+}
+.project-card__title {
+  color: var(--primary-text-color);
+  margin-bottom: var(--size-60);
+}
+.project-card__description {
+  color: var(--secondary-text-color);
+}
+.project-card__image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  border-radius: 4px 4px 0 0;
+}
+.project-card__figure {
+  margin: 0;
+  color: var(--secondary-text-color);
+}
+address {
+  color: var(--secondary-color);
+}
+#about {
+  background-color: var(--bkg-color2);
+}
+#projects {
+  background: var(--bkg-color3);
+}
+#media {
+  background: var(--bkg-color4);
+}
+#contact {
+  background: var(--bkg-color5);
+}
+footer a {
+  color: var(--primary-color);
+}
+.footer__menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: var(--size-60);
+  list-style: none;
+}
+@media (min-width: 600px) {
+  .header__menu {
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .projects__list {
+    list-style: none;
+    padding: 0 0 10px;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    cursor: pointer;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    flex-flow: row;
+  }
+  .projects__list::-webkit-scrollbar {
+    display: none;
+  }
+  .projects__list.active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1.01);
+  }
+  .projects__list-item {
+    min-width: 340px;
+    height: auto;
+    color: #222;
+    text-align: center;
+  }
+}
+@media (min-width: 800px) {
+  html {
+    font-size: 110%;
+  }
+  .header__menu {
+    flex-flow: row wrap;
+    justify-content: flex-end;
+  }
+  .header__menu-item {
+    flex: 0;
+    margin-left: var(--size-40);
+  }
+}

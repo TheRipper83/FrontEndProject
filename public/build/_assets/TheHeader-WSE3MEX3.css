@@ -1,0 +1,38 @@
+/* app/components/TheHeader/TheHeader.css */
+.header {
+  background: var(--bkg-color1);
+}
+.header__logo {
+  text-decoration: none;
+  color: #000;
+}
+.header__nav {
+  margin-top: var(--size-40);
+}
+.header__menu {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header__menu-item {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  margin-bottom: 2px;
+  flex: 1;
+  text-align: center;
+}
+.header__menu-link {
+  display: block;
+  padding: var(--size-40);
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+@media (min-width: 601px) {
+  .header__menu {
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+}

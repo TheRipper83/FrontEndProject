@@ -118,7 +118,9 @@ function handleBrowserRequest(request, responseStatusCode, responseHeaders, remi
 // app/root.jsx
 var root_exports = {};
 __export(root_exports, {
-  default: () => App
+  default: () => App,
+  links: () => links,
+  meta: () => meta
 });
 import {
   Links,
@@ -127,11 +129,71 @@ import {
   Outlet,
   Scripts
 } from "@remix-run/react";
+
+// app/styles/app.css
+var app_default = "/build/_assets/app-OFN4ZNY5.css";
+
+// app/components/TheHeader/TheHeader.jsx
 import { jsxDEV as jsxDEV2 } from "react/jsx-dev-runtime";
+function TheHeader({ title, menuItems }) {
+  return /* @__PURE__ */ jsxDEV2("header", { className: "header", children: /* @__PURE__ */ jsxDEV2("nav", { className: "header__nav", children: /* @__PURE__ */ jsxDEV2("ul", { className: "header__menu", children: [
+    /* @__PURE__ */ jsxDEV2("h3", { children: /* @__PURE__ */ jsxDEV2("a", { href: "/", rel: "home", className: "header__logo", children: title }, void 0, !1, {
+      fileName: "app/components/TheHeader/TheHeader.jsx",
+      lineNumber: 7,
+      columnNumber: 25
+    }, this) }, void 0, !1, {
+      fileName: "app/components/TheHeader/TheHeader.jsx",
+      lineNumber: 7,
+      columnNumber: 21
+    }, this),
+    menuItems.map((name) => /* @__PURE__ */ jsxDEV2("li", { className: "header__menu-item", children: /* @__PURE__ */ jsxDEV2("a", { className: "header__menu-link", href: name, children: name }, void 0, !1, {
+      fileName: "app/components/TheHeader/TheHeader.jsx",
+      lineNumber: 9,
+      columnNumber: 77
+    }, this) }, name, !1, {
+      fileName: "app/components/TheHeader/TheHeader.jsx",
+      lineNumber: 9,
+      columnNumber: 32
+    }, this))
+  ] }, void 0, !0, {
+    fileName: "app/components/TheHeader/TheHeader.jsx",
+    lineNumber: 6,
+    columnNumber: 17
+  }, this) }, void 0, !1, {
+    fileName: "app/components/TheHeader/TheHeader.jsx",
+    lineNumber: 4,
+    columnNumber: 13
+  }, this) }, void 0, !1, {
+    fileName: "app/components/TheHeader/TheHeader.jsx",
+    lineNumber: 3,
+    columnNumber: 9
+  }, this);
+}
+
+// app/components/TheHeader/TheHeader.css
+var TheHeader_default = "/build/_assets/TheHeader-WSE3MEX3.css";
+
+// app/root.jsx
+import { jsxDEV as jsxDEV3 } from "react/jsx-dev-runtime";
+var meta = () => [
+  {
+    name: "viewport",
+    content: "width=device-width, initial-scale=1"
+  }
+], links = () => [
+  {
+    rel: "stylesheet",
+    href: app_default
+  },
+  {
+    rel: "stylesheet",
+    href: TheHeader_default
+  }
+];
 function App() {
-  return /* @__PURE__ */ jsxDEV2("html", { children: [
-    /* @__PURE__ */ jsxDEV2("head", { children: [
-      /* @__PURE__ */ jsxDEV2(
+  return /* @__PURE__ */ jsxDEV3("html", { children: [
+    /* @__PURE__ */ jsxDEV3("head", { children: [
+      /* @__PURE__ */ jsxDEV3(
         "link",
         {
           rel: "icon",
@@ -141,61 +203,66 @@ function App() {
         !1,
         {
           fileName: "app/root.jsx",
-          lineNumber: 13,
+          lineNumber: 33,
           columnNumber: 11
         },
         this
       ),
-      /* @__PURE__ */ jsxDEV2(Meta, {}, void 0, !1, {
+      /* @__PURE__ */ jsxDEV3(Meta, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 17,
+        lineNumber: 37,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ jsxDEV2(Links, {}, void 0, !1, {
+      /* @__PURE__ */ jsxDEV3(Links, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 18,
+        lineNumber: 38,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 12,
+      lineNumber: 32,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ jsxDEV2("body", { children: [
-      /* @__PURE__ */ jsxDEV2("h1", { children: "Hello world!" }, void 0, !1, {
+    /* @__PURE__ */ jsxDEV3("body", { children: [
+      /* @__PURE__ */ jsxDEV3(TheHeader, { title: "Hossein", menuItems: ["Portfolio", "About us", "Contact"] }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 21,
+        lineNumber: 41,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV3("h1", { children: "Hello world!" }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 42,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ jsxDEV2(Outlet, {}, void 0, !1, {
+      /* @__PURE__ */ jsxDEV3(Outlet, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 22,
+        lineNumber: 43,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ jsxDEV2(Scripts, {}, void 0, !1, {
+      /* @__PURE__ */ jsxDEV3(Scripts, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 24,
+        lineNumber: 45,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ jsxDEV2(LiveReload, {}, void 0, !1, {
+      /* @__PURE__ */ jsxDEV3(LiveReload, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 25,
+        lineNumber: 46,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 20,
+      lineNumber: 40,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/root.jsx",
-    lineNumber: 11,
-    columnNumber: 7
+    lineNumber: 31,
+    columnNumber: 5
   }, this);
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-B2RWP4H5.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-7F7DD34L.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-2SUH2MHH.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-UGXVR7GL.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "eb35a090", hmr: { runtime: "/build/_shared\\chunk-2SUH2MHH.js", timestamp: 1708078828639 }, url: "/build/manifest-EB35A090.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-B2RWP4H5.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-7F7DD34L.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-2SUH2MHH.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-R2KDPJCD.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "8e3512ce", hmr: { runtime: "/build/_shared\\chunk-2SUH2MHH.js", timestamp: 1708081580414 }, url: "/build/manifest-8E3512CE.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "development", assetsBuildDirectory = "public\\build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1 }, publicPath = "/build/", entry = { module: entry_server_node_exports }, routes = {
