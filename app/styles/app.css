@@ -302,9 +302,12 @@ button {
     display: flex; /* Flexbox is a one-dimensional layout method for laying out items in rows or columns */
     flex-direction: row;
     justify-content: space-between;
-
+    position: relative;
     margin-inline : 120px;
     color: var(--secondary-text-color);
+}
+.project-card__caption{
+    position: absolute;
 }
 .project-card__figure div {
     margin-left: var(--size-60);
