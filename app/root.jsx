@@ -9,6 +9,12 @@ import {
   import TheHeader from "./components/TheHeader/TheHeader";  
   import TheHeaderStyles from "./components/TheHeader/TheHeader.css";
   import pic1 from "./Images/tlou.jpg"
+  import pic2 from "./Images/pic2.jpg"
+  import pic3 from "./Images/pic3.jpg"
+  import TheFooter from "./components/TheFooter";
+  import Figure from "./components/Figure";
+  import Article from "./components/Article";
+  import PicLoop from "./components/PicLoop";
   
   
   export const meta = () => [
@@ -29,6 +35,12 @@ import {
   ];
   export default function App() {
     const menuItems = ['Portfolio', 'About',"Contact"];
+    const pics = [
+        {title:"Project 1",url:require("./Images/tlou.jpg"),altt:"pic1"},
+        {title:"Project 2",url:require("./Images/pic2.jpg"),altt:"pic2"},
+        {title:"Project 3",url:require("./Images/pic3.jpg"),altt:"pic3"}
+
+    ]
     return (
       <html>
         <head>
@@ -54,63 +66,10 @@ import {
             <TheHeader title="Featured" menuItems={["see all"]}/>   
             <section>
                 <div className="container projects">
-                    <ul className="projects__list">  
-                                <li className="project-list__item">
-                                    <article class="project-card">
-                                        <figure class="project-card__figure">
-                                            <img
-                                                src="https://plus.unsplash.com/premium_photo-1682436568953-f0a0b0d5cdff?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGhvbmUlMjBhcHB8ZW58MHx8MHx8fDA%3D"
-                                                alt="A person holding an iPhone showcasing project 3" class="project-card__image"/>
-                                            
-                                        </figure>
-                                        <div class="project-card__container">
-                                            <h3 class="project-card__title">Project 3 - Mobile Payment App</h3>
-                                           
-                                        </div>
-                                        
-                                    </article>
-                                </li>
-                                <li className="project-list__item">
-                                    <article class="project-card">
-                                        <figure class="project-card__figure">
-                                            <img
-                                                src="https://plus.unsplash.com/premium_photo-1682436568953-f0a0b0d5cdff?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGhvbmUlMjBhcHB8ZW58MHx8MHx8fDA%3D"
-                                                alt="A person holding an iPhone showcasing project 3" class="project-card__image"/>
-                                            
-                                        </figure>
-                                        <div class="project-card__container">
-                                            <h3 class="project-card__title">Project 3 - Mobile Payment App</h3>
-                                           
-                                        </div>
-                                        
-                                    </article>
-                                </li>
-                                <li className="project-list__item">
-                                    <article class="project-card">
-                                        <figure class="project-card__figure">
-                                            <img
-                                                src="https://plus.unsplash.com/premium_photo-1682436568953-f0a0b0d5cdff?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGhvbmUlMjBhcHB8ZW58MHx8MHx8fDA%3D"
-                                                alt="A person holding an iPhone showcasing project 3" class="project-card__image"/>
-                                            
-                                        </figure>
-                                        <div class="project-card__container">
-                                            <h3 class="project-card__title">Project 3 - Mobile Payment App</h3>
-                                           
-                                        </div>
-                                        
-                                    </article>
-                                </li>
-                    </ul>
+                    <PicLoop pics={pics}/>
                 </div>
             </section>
-            <footer>
-                <ul className="footer__menu">
-                    <h3><a href="/" rel="home" className="header__logo">Hossein</a></h3>
-                    <li><a className="header__menu-link" href="#x.com">Portfolio</a></li>
-                    <li><a className="header__menu-link" href="#linkedin">About</a></li>
-                    <li><a className="header__menu-link" href="#facebook">Contact</a></li>
-                </ul>    
-            </footer>
+            <TheFooter/>
           <Scripts />
           <LiveReload />
         </body>
