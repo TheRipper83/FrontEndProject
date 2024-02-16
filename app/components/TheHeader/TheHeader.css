@@ -5,10 +5,11 @@
 .header__logo {
     text-decoration: none; /* Remove underline for the link */
     color: #000000; /* Text color */
+    padding:var(--size-120) ;
 }
 
 .header__nav {
-    margin-top: var(--size-40); /* Add some space between logo and menu */
+    margin-top: var(--size-80); /* Add some space between logo and menu */
 }
 
 .header__menu { 

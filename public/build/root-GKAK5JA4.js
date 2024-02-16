@@ -19,7 +19,7 @@ import {
 } from "/build/_shared/chunk-PNG5AS42.js";
 
 // app/styles/app.css
-var app_default = "/build/_assets/app-OFN4ZNY5.css";
+var app_default = "/build/_assets/app-7UMQHG53.css";
 
 // app/components/TheHeader/TheHeader.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
@@ -88,7 +88,10 @@ window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 
 // app/components/TheHeader/TheHeader.css
-var TheHeader_default = "/build/_assets/TheHeader-WSE3MEX3.css";
+var TheHeader_default = "/build/_assets/TheHeader-7MRZ5GIO.css";
+
+// app/Images/tlou.jpg
+var tlou_default = "/build/_assets/tlou-TMD3IYFY.jpg";
 
 // app/root.jsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime(), 1);
@@ -127,58 +130,67 @@ function App() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("link", { rel: "icon", href: "data:image/x-icon;base64,AA" }, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 39,
+        lineNumber: 40,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Meta, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 41,
+        lineNumber: 42,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Links, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 42,
+        lineNumber: 43,
         columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 38,
+      lineNumber: 39,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("body", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(TheHeader, { title: "Hossein", menuItems }, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 45,
+        lineNumber: 46,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h1", { children: "Hello world!" }, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 46,
+        lineNumber: 47,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Outlet, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 47,
+        lineNumber: 48,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Scripts, {}, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("section", { className: "project-card", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: tlou_default, alt: "pic" }, void 0, false, {
+        fileName: "app/root.jsx",
+        lineNumber: 50,
+        columnNumber: 13
+      }, this) }, void 0, false, {
         fileName: "app/root.jsx",
         lineNumber: 49,
         columnNumber: 11
       }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Scripts, {}, void 0, false, {
+        fileName: "app/root.jsx",
+        lineNumber: 53,
+        columnNumber: 11
+      }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(LiveReload, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 50,
+        lineNumber: 54,
         columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 44,
+      lineNumber: 45,
       columnNumber: 9
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.jsx",
-    lineNumber: 37,
+    lineNumber: 38,
     columnNumber: 10
   }, this);
 }
@@ -192,4 +204,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-ILJH2PLH.js.map
+//# sourceMappingURL=/build/root-GKAK5JA4.js.map

@@ -249,7 +249,7 @@ button {
   box-shadow: 0 4px 8px #0003;
   transition: .3s;
   border-radius: 4px;
-  margin: var(--size-60);
+  margin: var(--size-140);
 }
 .project-card:hover {
   box-shadow: 0 var(--size-40) var(--size-60) 0 #0003;

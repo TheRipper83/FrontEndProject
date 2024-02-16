@@ -5,9 +5,10 @@
 .header__logo {
   text-decoration: none;
   color: #000;
+  padding: var(--size-120);
 }
 .header__nav {
-  margin-top: var(--size-40);
+  margin-top: var(--size-80);
 }
 .header__menu {
   display: flex;
