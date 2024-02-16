@@ -16,6 +16,7 @@ import {
   import Article from "./components/Article";
   import PicLoop from "./components/PicLoop";
   import welcome from "./Images/welcomeimage.png"
+  import ButtonDarkMode from "./components/ButtonDarkMode";
   
   export const meta = () => [
     {
@@ -52,6 +53,7 @@ import {
           <Links />
         </head>
         <body>
+          <ButtonDarkMode/>
             <TheHeader title="Hossein" menuItems={menuItems}/>
           <Outlet />
           <section className="project-card">

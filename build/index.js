@@ -323,8 +323,31 @@ function PicLoop({ pics }) {
 // app/Images/welcomeimage.png
 var welcomeimage_default = "/build/_assets/welcomeimage-7CVT4XJY.png";
 
-// app/root.jsx
+// app/components/Button.jsx
 import { jsxDEV as jsxDEV7 } from "react/jsx-dev-runtime";
+function Button({ className, onClick, children }) {
+  return /* @__PURE__ */ jsxDEV7("button", { position: "fixed", className: "button {className}", onClick, children }, void 0, !1, {
+    fileName: "app/components/Button.jsx",
+    lineNumber: 3,
+    columnNumber: 9
+  }, this);
+}
+
+// app/components/ButtonDarkMode.jsx
+import { jsxDEV as jsxDEV8 } from "react/jsx-dev-runtime";
+function ButtonDarkMode() {
+  function toggleDarkMode() {
+    console.log("test"), window.matchMedia("(prefers-color-scheme: dark)") ? document.body.classList.toggle("light-theme") : document.body.classList.toggle("dark-theme");
+  }
+  return /* @__PURE__ */ jsxDEV8(Button, { onClick: toggleDarkMode, className: "button-dark-mode", children: "Toggle Dark Mode" }, void 0, !1, {
+    fileName: "app/components/ButtonDarkMode.jsx",
+    lineNumber: 25,
+    columnNumber: 9
+  }, this);
+}
+
+// app/root.jsx
+import { jsxDEV as jsxDEV9 } from "react/jsx-dev-runtime";
 var meta = () => [
   {
     name: "viewport",
@@ -346,9 +369,9 @@ function App() {
     { title: "Project 2", url: require_pic2(), altt: "pic2" },
     { title: "Project 3", url: require_pic3(), altt: "pic3" }
   ];
-  return /* @__PURE__ */ jsxDEV7("html", { children: [
-    /* @__PURE__ */ jsxDEV7("head", { children: [
-      /* @__PURE__ */ jsxDEV7(
+  return /* @__PURE__ */ jsxDEV9("html", { children: [
+    /* @__PURE__ */ jsxDEV9("head", { children: [
+      /* @__PURE__ */ jsxDEV9(
         "link",
         {
           rel: "icon",
@@ -358,164 +381,169 @@ function App() {
         !1,
         {
           fileName: "app/root.jsx",
-          lineNumber: 47,
+          lineNumber: 48,
           columnNumber: 11
         },
         this
       ),
-      /* @__PURE__ */ jsxDEV7(Meta, {}, void 0, !1, {
-        fileName: "app/root.jsx",
-        lineNumber: 51,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ jsxDEV7(Links, {}, void 0, !1, {
+      /* @__PURE__ */ jsxDEV9(Meta, {}, void 0, !1, {
         fileName: "app/root.jsx",
         lineNumber: 52,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ jsxDEV9(Links, {}, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 53,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 46,
+      lineNumber: 47,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ jsxDEV7("body", { children: [
-      /* @__PURE__ */ jsxDEV7(TheHeader, { title: "Hossein", menuItems }, void 0, !1, {
-        fileName: "app/root.jsx",
-        lineNumber: 55,
-        columnNumber: 13
-      }, this),
-      /* @__PURE__ */ jsxDEV7(Outlet, {}, void 0, !1, {
+    /* @__PURE__ */ jsxDEV9("body", { children: [
+      /* @__PURE__ */ jsxDEV9(ButtonDarkMode, {}, void 0, !1, {
         fileName: "app/root.jsx",
         lineNumber: 56,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ jsxDEV7("section", { className: "project-card", children: /* @__PURE__ */ jsxDEV7("img", { src: import_tlou.default, alt: "pic" }, void 0, !1, {
+      /* @__PURE__ */ jsxDEV9(TheHeader, { title: "Hossein", menuItems }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 57,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV9(Outlet, {}, void 0, !1, {
         fileName: "app/root.jsx",
         lineNumber: 58,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ jsxDEV9("section", { className: "project-card", children: /* @__PURE__ */ jsxDEV9("img", { src: import_tlou.default, alt: "pic" }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 60,
         columnNumber: 13
       }, this) }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 57,
+        lineNumber: 59,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ jsxDEV7("main", { class: "welcome", children: [
-        /* @__PURE__ */ jsxDEV7("div", { class: "welcometext", children: [
-          /* @__PURE__ */ jsxDEV7("h4", { class: "welcome", children: "Welcome" }, void 0, !1, {
-            fileName: "app/root.jsx",
-            lineNumber: 62,
-            columnNumber: 17
-          }, this),
-          /* @__PURE__ */ jsxDEV7("h2", { children: "Welcome to Arch Studio" }, void 0, !1, {
-            fileName: "app/root.jsx",
-            lineNumber: 63,
-            columnNumber: 17
-          }, this),
-          /* @__PURE__ */ jsxDEV7("p", { children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi excepturi ad, vel porro fuga libero quod nostrum eveniet odio, cum sapiente reiciendis tenetur nesciunt amet dolorum, voluptatibus iste sit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quibusdam quia aliquid ab culpa porro, ducimus sunt officiis quas cumque laboriosam, consequatur dolorum illum facere, et praesentium autem illo maxime?" }, void 0, !1, {
+      /* @__PURE__ */ jsxDEV9("main", { class: "welcome", children: [
+        /* @__PURE__ */ jsxDEV9("div", { class: "welcometext", children: [
+          /* @__PURE__ */ jsxDEV9("h4", { class: "welcome", children: "Welcome" }, void 0, !1, {
             fileName: "app/root.jsx",
             lineNumber: 64,
             columnNumber: 17
+          }, this),
+          /* @__PURE__ */ jsxDEV9("h2", { children: "Welcome to Arch Studio" }, void 0, !1, {
+            fileName: "app/root.jsx",
+            lineNumber: 65,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ jsxDEV9("p", { children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi excepturi ad, vel porro fuga libero quod nostrum eveniet odio, cum sapiente reiciendis tenetur nesciunt amet dolorum, voluptatibus iste sit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quibusdam quia aliquid ab culpa porro, ducimus sunt officiis quas cumque laboriosam, consequatur dolorum illum facere, et praesentium autem illo maxime?" }, void 0, !1, {
+            fileName: "app/root.jsx",
+            lineNumber: 66,
+            columnNumber: 17
           }, this)
         ] }, void 0, !0, {
           fileName: "app/root.jsx",
-          lineNumber: 61,
+          lineNumber: 63,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ jsxDEV7("img", { src: welcomeimage_default, alt: "", class: "welcomeimage" }, void 0, !1, {
+        /* @__PURE__ */ jsxDEV9("img", { src: welcomeimage_default, alt: "", class: "welcomeimage" }, void 0, !1, {
           fileName: "app/root.jsx",
-          lineNumber: 66,
+          lineNumber: 68,
           columnNumber: 13
         }, this)
       ] }, void 0, !0, {
         fileName: "app/root.jsx",
-        lineNumber: 60,
+        lineNumber: 62,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ jsxDEV7("aside", { class: "project-card", children: [
-        /* @__PURE__ */ jsxDEV7("img", { src: import_tlou.default, alt: "pic" }, void 0, !1, {
+      /* @__PURE__ */ jsxDEV9("aside", { class: "project-card", children: [
+        /* @__PURE__ */ jsxDEV9("img", { src: import_tlou.default, alt: "pic" }, void 0, !1, {
           fileName: "app/root.jsx",
-          lineNumber: 69,
+          lineNumber: 71,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ jsxDEV7("div", { class: "aboutuscontent", children: [
-          /* @__PURE__ */ jsxDEV7("h2", { class: "aboutustext", children: "Small Team," }, void 0, !1, {
-            fileName: "app/root.jsx",
-            lineNumber: 71,
-            columnNumber: 17
-          }, this),
-          /* @__PURE__ */ jsxDEV7("h2", { class: "aboutustext", children: "big ideas" }, void 0, !1, {
-            fileName: "app/root.jsx",
-            lineNumber: 72,
-            columnNumber: 17
-          }, this),
-          /* @__PURE__ */ jsxDEV7("button", { children: "About us" }, void 0, !1, {
+        /* @__PURE__ */ jsxDEV9("div", { class: "aboutuscontent", children: [
+          /* @__PURE__ */ jsxDEV9("h2", { class: "aboutustext", children: "Small Team," }, void 0, !1, {
             fileName: "app/root.jsx",
             lineNumber: 73,
             columnNumber: 17
+          }, this),
+          /* @__PURE__ */ jsxDEV9("h2", { class: "aboutustext", children: "big ideas" }, void 0, !1, {
+            fileName: "app/root.jsx",
+            lineNumber: 74,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ jsxDEV9("button", { children: "About us" }, void 0, !1, {
+            fileName: "app/root.jsx",
+            lineNumber: 75,
+            columnNumber: 17
           }, this)
         ] }, void 0, !0, {
           fileName: "app/root.jsx",
-          lineNumber: 70,
+          lineNumber: 72,
           columnNumber: 13
         }, this)
       ] }, void 0, !0, {
         fileName: "app/root.jsx",
-        lineNumber: 68,
+        lineNumber: 70,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ jsxDEV7("section", { className: "feature", children: [
-        /* @__PURE__ */ jsxDEV7("div", { class: "featuretitle", children: [
-          /* @__PURE__ */ jsxDEV7("h2", { children: "Featured" }, void 0, !1, {
+      /* @__PURE__ */ jsxDEV9("section", { className: "feature", children: [
+        /* @__PURE__ */ jsxDEV9("div", { class: "featuretitle", children: [
+          /* @__PURE__ */ jsxDEV9("h2", { children: "Featured" }, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 78,
+            lineNumber: 80,
             columnNumber: 19
           }, this),
-          /* @__PURE__ */ jsxDEV7("button", { children: "See All" }, void 0, !1, {
+          /* @__PURE__ */ jsxDEV9("button", { children: "See All" }, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 79,
+            lineNumber: 81,
             columnNumber: 19
           }, this)
         ] }, void 0, !0, {
           fileName: "app/root.jsx",
-          lineNumber: 77,
+          lineNumber: 79,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ jsxDEV7("div", { className: "futurecards", children: /* @__PURE__ */ jsxDEV7(PicLoop, { pics }, void 0, !1, {
+        /* @__PURE__ */ jsxDEV9("div", { className: "futurecards", children: /* @__PURE__ */ jsxDEV9(PicLoop, { pics }, void 0, !1, {
           fileName: "app/root.jsx",
-          lineNumber: 82,
+          lineNumber: 84,
           columnNumber: 15
         }, this) }, void 0, !1, {
           fileName: "app/root.jsx",
-          lineNumber: 81,
+          lineNumber: 83,
           columnNumber: 13
         }, this)
       ] }, void 0, !0, {
         fileName: "app/root.jsx",
-        lineNumber: 76,
+        lineNumber: 78,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ jsxDEV7(TheFooter, {}, void 0, !1, {
-        fileName: "app/root.jsx",
-        lineNumber: 87,
-        columnNumber: 13
-      }, this),
-      /* @__PURE__ */ jsxDEV7(Scripts, {}, void 0, !1, {
-        fileName: "app/root.jsx",
-        lineNumber: 88,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ jsxDEV7(LiveReload, {}, void 0, !1, {
+      /* @__PURE__ */ jsxDEV9(TheFooter, {}, void 0, !1, {
         fileName: "app/root.jsx",
         lineNumber: 89,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV9(Scripts, {}, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 90,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ jsxDEV9(LiveReload, {}, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 91,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 54,
+      lineNumber: 55,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/root.jsx",
-    lineNumber: 45,
+    lineNumber: 46,
     columnNumber: 5
   }, this);
 }
@@ -525,9 +553,9 @@ var Portfolio_exports = {};
 __export(Portfolio_exports, {
   default: () => Portfolio
 });
-import { Fragment, jsxDEV as jsxDEV8 } from "react/jsx-dev-runtime";
+import { Fragment, jsxDEV as jsxDEV10 } from "react/jsx-dev-runtime";
 function Portfolio() {
-  return /* @__PURE__ */ jsxDEV8(Fragment, { children: /* @__PURE__ */ jsxDEV8("section", { children: /* @__PURE__ */ jsxDEV8("h1", { children: "This is Portfolio page" }, void 0, !1, {
+  return /* @__PURE__ */ jsxDEV10(Fragment, { children: /* @__PURE__ */ jsxDEV10("section", { children: /* @__PURE__ */ jsxDEV10("h1", { children: "This is Portfolio page" }, void 0, !1, {
     fileName: "app/routes/Portfolio.jsx",
     lineNumber: 5,
     columnNumber: 16
@@ -547,9 +575,9 @@ var Contact_exports = {};
 __export(Contact_exports, {
   default: () => Contact
 });
-import { Fragment as Fragment2, jsxDEV as jsxDEV9 } from "react/jsx-dev-runtime";
+import { Fragment as Fragment2, jsxDEV as jsxDEV11 } from "react/jsx-dev-runtime";
 function Contact() {
-  return /* @__PURE__ */ jsxDEV9(Fragment2, { children: /* @__PURE__ */ jsxDEV9("section", { children: /* @__PURE__ */ jsxDEV9("h1", { children: "This is contact Page" }, void 0, !1, {
+  return /* @__PURE__ */ jsxDEV11(Fragment2, { children: /* @__PURE__ */ jsxDEV11("section", { children: /* @__PURE__ */ jsxDEV11("h1", { children: "This is contact Page" }, void 0, !1, {
     fileName: "app/routes/Contact.jsx",
     lineNumber: 5,
     columnNumber: 17
@@ -569,9 +597,9 @@ var About_exports = {};
 __export(About_exports, {
   default: () => About
 });
-import { Fragment as Fragment3, jsxDEV as jsxDEV10 } from "react/jsx-dev-runtime";
+import { Fragment as Fragment3, jsxDEV as jsxDEV12 } from "react/jsx-dev-runtime";
 function About() {
-  return /* @__PURE__ */ jsxDEV10(Fragment3, { children: /* @__PURE__ */ jsxDEV10("section", { children: /* @__PURE__ */ jsxDEV10("h1", { children: "This is About Page" }, void 0, !1, {
+  return /* @__PURE__ */ jsxDEV12(Fragment3, { children: /* @__PURE__ */ jsxDEV12("section", { children: /* @__PURE__ */ jsxDEV12("h1", { children: "This is About Page" }, void 0, !1, {
     fileName: "app/routes/About.jsx",
     lineNumber: 5,
     columnNumber: 17
@@ -587,7 +615,7 @@ function About() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-UARJDEWC.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-MNP5KT47.js", "/build/_shared/chunk-2SUH2MHH.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-3KJV7RPG.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/About": { id: "routes/About", parentId: "root", path: "About", index: void 0, caseSensitive: void 0, module: "/build/routes/About-RKE3ELRF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/Contact": { id: "routes/Contact", parentId: "root", path: "Contact", index: void 0, caseSensitive: void 0, module: "/build/routes/Contact-FXZAILN2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/Portfolio": { id: "routes/Portfolio", parentId: "root", path: "Portfolio", index: void 0, caseSensitive: void 0, module: "/build/routes/Portfolio-H3733UC7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "26279c13", hmr: { runtime: "/build/_shared\\chunk-2SUH2MHH.js", timestamp: 1708119416155 }, url: "/build/manifest-26279C13.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-UARJDEWC.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-MNP5KT47.js", "/build/_shared/chunk-2SUH2MHH.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-YG4WHAY4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/About": { id: "routes/About", parentId: "root", path: "About", index: void 0, caseSensitive: void 0, module: "/build/routes/About-RKE3ELRF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/Contact": { id: "routes/Contact", parentId: "root", path: "Contact", index: void 0, caseSensitive: void 0, module: "/build/routes/Contact-FXZAILN2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/Portfolio": { id: "routes/Portfolio", parentId: "root", path: "Portfolio", index: void 0, caseSensitive: void 0, module: "/build/routes/Portfolio-H3733UC7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "1321e550", hmr: { runtime: "/build/_shared\\chunk-2SUH2MHH.js", timestamp: 1708120309295 }, url: "/build/manifest-1321E550.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "development", assetsBuildDirectory = "public\\build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1 }, publicPath = "/build/", entry = { module: entry_server_node_exports }, routes = {
