@@ -163,7 +163,7 @@ a, p {
     color: var(--primary-text-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
     color: var(--secondary-text-color);
 }
 
@@ -305,7 +305,7 @@ button {
     flex-direction: row;
     justify-content: space-between;
     position: relative;
-    margin-inline : 120px;
+    margin-inline : 24px;
     color: var(--secondary-text-color);
 }
 .project-card__caption{
@@ -480,6 +480,8 @@ footer button {
     display: flex;
     justify-content: space-between;
     position: relative;
+    list-style: none;
+    margin-top: 24px;
 }
 .feature .featurecards img {
     height: 550px;

@@ -41,7 +41,7 @@ var require_pic3 = __commonJS({
 });
 
 // app/styles/app.css
-var app_default = "/build/_assets/app-QMGPOQKY.css";
+var app_default = "/build/_assets/app-YB5YS2DQ.css";
 
 // app/components/TheHeader/TheHeader.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
@@ -636,4 +636,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-YG4WHAY4.js.map
+//# sourceMappingURL=/build/root-2EVODZOE.js.map
