@@ -412,8 +412,193 @@ $RefreshReg$(_c7, "ButtonDarkMode");
 window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 
-// app/root.jsx
+// app/components/mainn.jsx
 var import_jsx_dev_runtime8 = __toESM(require_jsx_dev_runtime(), 1);
+if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
+  console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
+} else {
+  prevRefreshReg = window.$RefreshReg$;
+  prevRefreshSig = window.$RefreshSig$;
+  window.$RefreshReg$ = (type, id) => {
+    window.$RefreshRuntime$.register(type, '"app\\\\components\\\\mainn.jsx"' + id);
+  };
+  window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
+}
+var prevRefreshReg;
+var prevRefreshSig;
+if (import.meta) {
+  import.meta.hot = createHotContext(
+    //@ts-expect-error
+    "app\\components\\mainn.jsx"
+  );
+  import.meta.hot.lastModified = "1708122008669.663";
+}
+function Figure2(props) {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("main", { class: "welcome", children: [
+    props.children,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { class: "welcometext", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h4", { class: "welcome", children: "Welcome" }, void 0, false, {
+        fileName: "app/components/mainn.jsx",
+        lineNumber: 24,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h2", { children: "Welcome to Arch Studio" }, void 0, false, {
+        fileName: "app/components/mainn.jsx",
+        lineNumber: 25,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("p", { children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi excepturi ad, vel porro fuga libero quod nostrum eveniet odio, cum sapiente reiciendis tenetur nesciunt amet dolorum, voluptatibus iste sit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quibusdam quia aliquid ab culpa porro, ducimus sunt officiis quas cumque laboriosam, consequatur dolorum illum facere, et praesentium autem illo maxime?" }, void 0, false, {
+        fileName: "app/components/mainn.jsx",
+        lineNumber: 26,
+        columnNumber: 17
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/components/mainn.jsx",
+      lineNumber: 23,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { src: props.images, alt: "", class: "welcomeimage" }, void 0, false, {
+      fileName: "app/components/mainn.jsx",
+      lineNumber: 28,
+      columnNumber: 13
+    }, this)
+  ] }, void 0, true, {
+    fileName: "app/components/mainn.jsx",
+    lineNumber: 22,
+    columnNumber: 10
+  }, this);
+}
+_c8 = Figure2;
+var _c8;
+$RefreshReg$(_c8, "Figure");
+window.$RefreshReg$ = prevRefreshReg;
+window.$RefreshSig$ = prevRefreshSig;
+
+// app/components/Asides.jsx
+var import_jsx_dev_runtime9 = __toESM(require_jsx_dev_runtime(), 1);
+if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
+  console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
+} else {
+  prevRefreshReg = window.$RefreshReg$;
+  prevRefreshSig = window.$RefreshSig$;
+  window.$RefreshReg$ = (type, id) => {
+    window.$RefreshRuntime$.register(type, '"app\\\\components\\\\Asides.jsx"' + id);
+  };
+  window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
+}
+var prevRefreshReg;
+var prevRefreshSig;
+if (import.meta) {
+  import.meta.hot = createHotContext(
+    //@ts-expect-error
+    "app\\components\\Asides.jsx"
+  );
+  import.meta.hot.lastModified = "1708122147321.8691";
+}
+function Asides(props) {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("aside", { class: "project-card", children: [
+    props.children,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("img", { src: props.imagess, alt: "pic" }, void 0, false, {
+      fileName: "app/components/Asides.jsx",
+      lineNumber: 23,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { class: "aboutuscontent", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h2", { class: "aboutustext", children: "Small Team," }, void 0, false, {
+        fileName: "app/components/Asides.jsx",
+        lineNumber: 25,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h2", { class: "aboutustext", children: "big ideas" }, void 0, false, {
+        fileName: "app/components/Asides.jsx",
+        lineNumber: 26,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("button", { children: "About us" }, void 0, false, {
+        fileName: "app/components/Asides.jsx",
+        lineNumber: 27,
+        columnNumber: 17
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/components/Asides.jsx",
+      lineNumber: 24,
+      columnNumber: 13
+    }, this)
+  ] }, void 0, true, {
+    fileName: "app/components/Asides.jsx",
+    lineNumber: 22,
+    columnNumber: 10
+  }, this);
+}
+_c9 = Asides;
+var _c9;
+$RefreshReg$(_c9, "Asides");
+window.$RefreshReg$ = prevRefreshReg;
+window.$RefreshSig$ = prevRefreshSig;
+
+// app/components/Features.jsx
+var import_jsx_dev_runtime10 = __toESM(require_jsx_dev_runtime(), 1);
+if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
+  console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
+} else {
+  prevRefreshReg = window.$RefreshReg$;
+  prevRefreshSig = window.$RefreshSig$;
+  window.$RefreshReg$ = (type, id) => {
+    window.$RefreshRuntime$.register(type, '"app\\\\components\\\\Features.jsx"' + id);
+  };
+  window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
+}
+var prevRefreshReg;
+var prevRefreshSig;
+if (import.meta) {
+  import.meta.hot = createHotContext(
+    //@ts-expect-error
+    "app\\components\\Features.jsx"
+  );
+  import.meta.hot.lastModified = "1708122395923.303";
+}
+function Figure3(props) {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "feature", children: [
+    props.children,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { class: "featuretitle", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { children: "Featured" }, void 0, false, {
+        fileName: "app/components/Features.jsx",
+        lineNumber: 25,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("button", { children: "See All" }, void 0, false, {
+        fileName: "app/components/Features.jsx",
+        lineNumber: 26,
+        columnNumber: 17
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/components/Features.jsx",
+      lineNumber: 24,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "futurecards", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(PicLoop, { pics: props.imagesss }, void 0, false, {
+      fileName: "app/components/Features.jsx",
+      lineNumber: 29,
+      columnNumber: 13
+    }, this) }, void 0, false, {
+      fileName: "app/components/Features.jsx",
+      lineNumber: 28,
+      columnNumber: 13
+    }, this)
+  ] }, void 0, true, {
+    fileName: "app/components/Features.jsx",
+    lineNumber: 23,
+    columnNumber: 10
+  }, this);
+}
+_c10 = Figure3;
+var _c10;
+$RefreshReg$(_c10, "Figure");
+window.$RefreshReg$ = prevRefreshReg;
+window.$RefreshSig$ = prevRefreshSig;
+
+// app/root.jsx
+var import_jsx_dev_runtime11 = __toESM(require_jsx_dev_runtime(), 1);
 if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
   console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
 } else {
@@ -458,177 +643,97 @@ function App() {
     url: require_pic3(),
     altt: "pic3"
   }];
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("html", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("head", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("link", { rel: "icon", href: "data:image/x-icon;base64,AA" }, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 61,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Meta, {}, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 63,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Links, {}, void 0, false, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("html", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("head", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("link", { rel: "icon", href: "data:image/x-icon;base64,AA" }, void 0, false, {
         fileName: "app/root.jsx",
         lineNumber: 64,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Meta, {}, void 0, false, {
+        fileName: "app/root.jsx",
+        lineNumber: 66,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Links, {}, void 0, false, {
+        fileName: "app/root.jsx",
+        lineNumber: 67,
         columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 60,
+      lineNumber: 63,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("body", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(ButtonDarkMode, {}, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 67,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(TheHeader, { title: "Hossein", menuItems }, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 68,
-        columnNumber: 13
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Outlet, {}, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 69,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("section", { className: "project-card", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { src: import_tlou.default, alt: "pic" }, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 71,
-        columnNumber: 13
-      }, this) }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("body", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(ButtonDarkMode, {}, void 0, false, {
         fileName: "app/root.jsx",
         lineNumber: 70,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("main", { class: "welcome", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { class: "welcometext", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h4", { class: "welcome", children: "Welcome" }, void 0, false, {
-            fileName: "app/root.jsx",
-            lineNumber: 75,
-            columnNumber: 17
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h2", { children: "Welcome to Arch Studio" }, void 0, false, {
-            fileName: "app/root.jsx",
-            lineNumber: 76,
-            columnNumber: 17
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("p", { children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi excepturi ad, vel porro fuga libero quod nostrum eveniet odio, cum sapiente reiciendis tenetur nesciunt amet dolorum, voluptatibus iste sit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quibusdam quia aliquid ab culpa porro, ducimus sunt officiis quas cumque laboriosam, consequatur dolorum illum facere, et praesentium autem illo maxime?" }, void 0, false, {
-            fileName: "app/root.jsx",
-            lineNumber: 77,
-            columnNumber: 17
-          }, this)
-        ] }, void 0, true, {
-          fileName: "app/root.jsx",
-          lineNumber: 74,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { src: welcomeimage_default, alt: "", class: "welcomeimage" }, void 0, false, {
-          fileName: "app/root.jsx",
-          lineNumber: 79,
-          columnNumber: 13
-        }, this)
-      ] }, void 0, true, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(TheHeader, { title: "Hossein", menuItems }, void 0, false, {
+        fileName: "app/root.jsx",
+        lineNumber: 71,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Outlet, {}, void 0, false, {
+        fileName: "app/root.jsx",
+        lineNumber: 72,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("section", { className: "project-card", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("img", { src: import_tlou.default, alt: "pic" }, void 0, false, {
+        fileName: "app/root.jsx",
+        lineNumber: 74,
+        columnNumber: 13
+      }, this) }, void 0, false, {
         fileName: "app/root.jsx",
         lineNumber: 73,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("aside", { class: "project-card", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { src: import_tlou.default, alt: "pic" }, void 0, false, {
-          fileName: "app/root.jsx",
-          lineNumber: 82,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { class: "aboutuscontent", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h2", { class: "aboutustext", children: "Small Team," }, void 0, false, {
-            fileName: "app/root.jsx",
-            lineNumber: 84,
-            columnNumber: 17
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h2", { class: "aboutustext", children: "big ideas" }, void 0, false, {
-            fileName: "app/root.jsx",
-            lineNumber: 85,
-            columnNumber: 17
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("button", { children: "About us" }, void 0, false, {
-            fileName: "app/root.jsx",
-            lineNumber: 86,
-            columnNumber: 17
-          }, this)
-        ] }, void 0, true, {
-          fileName: "app/root.jsx",
-          lineNumber: 83,
-          columnNumber: 13
-        }, this)
-      ] }, void 0, true, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Figure2, { images: welcomeimage_default }, void 0, false, {
+        fileName: "app/root.jsx",
+        lineNumber: 76,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Asides, { imagess: import_tlou.default }, void 0, false, {
+        fileName: "app/root.jsx",
+        lineNumber: 77,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Figure3, { imagesss: pics }, void 0, false, {
+        fileName: "app/root.jsx",
+        lineNumber: 78,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(TheFooter, {}, void 0, false, {
         fileName: "app/root.jsx",
         lineNumber: 81,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("section", { className: "feature", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { class: "featuretitle", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h2", { children: "Featured" }, void 0, false, {
-            fileName: "app/root.jsx",
-            lineNumber: 91,
-            columnNumber: 19
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("button", { children: "See All" }, void 0, false, {
-            fileName: "app/root.jsx",
-            lineNumber: 92,
-            columnNumber: 19
-          }, this)
-        ] }, void 0, true, {
-          fileName: "app/root.jsx",
-          lineNumber: 90,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "futurecards", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(PicLoop, { pics }, void 0, false, {
-          fileName: "app/root.jsx",
-          lineNumber: 95,
-          columnNumber: 15
-        }, this) }, void 0, false, {
-          fileName: "app/root.jsx",
-          lineNumber: 94,
-          columnNumber: 13
-        }, this)
-      ] }, void 0, true, {
-        fileName: "app/root.jsx",
-        lineNumber: 89,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(TheFooter, {}, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 100,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Scripts, {}, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Scripts, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 101,
+        lineNumber: 82,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(LiveReload, {}, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(LiveReload, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 102,
+        lineNumber: 83,
         columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 66,
+      lineNumber: 69,
       columnNumber: 9
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.jsx",
-    lineNumber: 59,
+    lineNumber: 62,
     columnNumber: 10
   }, this);
 }
-_c8 = App;
-var _c8;
-$RefreshReg$(_c8, "App");
+_c11 = App;
+var _c11;
+$RefreshReg$(_c11, "App");
 window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 export {
@@ -636,4 +741,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-2EVODZOE.js.map
+//# sourceMappingURL=/build/root-ONQJV76Q.js.map

@@ -17,6 +17,9 @@ import {
   import PicLoop from "./components/PicLoop";
   import welcome from "./Images/welcomeimage.png"
   import ButtonDarkMode from "./components/ButtonDarkMode";
+  import Main from "./components/mainn";
+  import Asides from "./components/Asides";
+  import Features from "./components/Features";
   
   export const meta = () => [
     {
@@ -59,31 +62,9 @@ import {
           <section className="project-card">
             <img src={pic1} alt="pic" />
           </section>
-          <main class="welcome">
-            <div class="welcometext">
-                <h4 class="welcome">Welcome</h4>
-                <h2>Welcome to Arch Studio</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi excepturi ad, vel porro fuga libero quod nostrum eveniet odio, cum sapiente reiciendis tenetur nesciunt amet dolorum, voluptatibus iste sit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quibusdam quia aliquid ab culpa porro, ducimus sunt officiis quas cumque laboriosam, consequatur dolorum illum facere, et praesentium autem illo maxime?</p>
-            </div>
-            <img src={welcome} alt="" class="welcomeimage"/>
-        </main>
-          <aside class="project-card">
-            <img src={pic1} alt="pic"></img>
-            <div class="aboutuscontent">
-                <h2 class="aboutustext">Small Team,</h2>
-                <h2 class="aboutustext">big ideas</h2>
-                <button>About us</button>
-            </div>
-        </aside>
-          <section className="feature">
-            <div class="featuretitle">
-                  <h2>Featured</h2>
-                  <button>See All</button>
-            </div> 
-            <div className="futurecards">
-              <PicLoop pics={pics}/>
-            </div> 
-          </section>
+          <Main images = {welcome}/>
+          <Asides imagess ={pic1}/>
+          <Features imagesss={pics}/>
           
             
             <TheFooter/>
