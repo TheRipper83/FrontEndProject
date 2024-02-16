@@ -65,9 +65,7 @@ import {
           <Main images = {welcome}/>
           <Asides imagess ={pic1}/>
           <Features imagesss={pics}/>
-          
-            
-            <TheFooter/>
+          <TheFooter/>
           <Scripts />
           <LiveReload />
         </body>

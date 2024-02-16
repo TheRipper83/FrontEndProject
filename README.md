@@ -7,3 +7,5 @@ there is a dark mode toggle where you can switch you theme
 the page is responsive so you can use it on all devices
 
 this is a react project so you can see various components
+
+If there is any problem you can contanct me at Hossein.tayebi83@gmail.com

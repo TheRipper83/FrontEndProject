@@ -707,17 +707,17 @@ function App() {
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(TheFooter, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 81,
-        columnNumber: 13
+        lineNumber: 79,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Scripts, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 82,
+        lineNumber: 80,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(LiveReload, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 83,
+        lineNumber: 81,
         columnNumber: 11
       }, this)
     ] }, void 0, true, {
@@ -741,4 +741,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-ONQJV76Q.js.map
+//# sourceMappingURL=/build/root-LN7GE74M.js.map
