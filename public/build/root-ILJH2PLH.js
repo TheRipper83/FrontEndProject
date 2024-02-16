@@ -1,19 +1,19 @@
 import {
-  require_jsx_dev_runtime
-} from "/build/_shared/chunk-XU7DNSPJ.js";
-import {
   Links,
   LiveReload,
   Meta,
   Outlet,
   Scripts
-} from "/build/_shared/chunk-7F7DD34L.js";
-import "/build/_shared/chunk-GIAAE3CH.js";
-import "/build/_shared/chunk-BOXFZXVX.js";
+} from "/build/_shared/chunk-MNP5KT47.js";
 import {
   createHotContext
 } from "/build/_shared/chunk-2SUH2MHH.js";
 import "/build/_shared/chunk-UWV35TSL.js";
+import {
+  require_jsx_dev_runtime
+} from "/build/_shared/chunk-XU7DNSPJ.js";
+import "/build/_shared/chunk-GIAAE3CH.js";
+import "/build/_shared/chunk-BOXFZXVX.js";
 import {
   __toESM
 } from "/build/_shared/chunk-PNG5AS42.js";
@@ -122,7 +122,7 @@ var links = () => [{
   href: TheHeader_default
 }];
 function App() {
-  const menuItems = ["Portfolio", "About us", "Contact"];
+  const menuItems = ["Portfolio", "About", "Contact"];
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("html", { children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("link", { rel: "icon", href: "data:image/x-icon;base64,AA" }, void 0, false, {
@@ -192,4 +192,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-R2KDPJCD.js.map
+//# sourceMappingURL=/build/root-ILJH2PLH.js.map

@@ -224,7 +224,7 @@ function App() {
       columnNumber: 9
     }, this),
     /* @__PURE__ */ jsxDEV3("body", { children: [
-      /* @__PURE__ */ jsxDEV3(TheHeader, { title: "Hossein", menuItems: ["Portfolio", "About us", "Contact"] }, void 0, !1, {
+      /* @__PURE__ */ jsxDEV3(TheHeader, { title: "Hossein", menuItems: ["Portfolio", "About", "Contact"] }, void 0, !1, {
         fileName: "app/root.jsx",
         lineNumber: 41,
         columnNumber: 13
@@ -261,8 +261,74 @@ function App() {
   }, this);
 }
 
+// app/routes/Portfolio.jsx
+var Portfolio_exports = {};
+__export(Portfolio_exports, {
+  default: () => Portfolio
+});
+import { Fragment, jsxDEV as jsxDEV4 } from "react/jsx-dev-runtime";
+function Portfolio() {
+  return /* @__PURE__ */ jsxDEV4(Fragment, { children: /* @__PURE__ */ jsxDEV4("section", { children: /* @__PURE__ */ jsxDEV4("h1", { children: "This is Portfolio page" }, void 0, !1, {
+    fileName: "app/routes/Portfolio.jsx",
+    lineNumber: 5,
+    columnNumber: 16
+  }, this) }, void 0, !1, {
+    fileName: "app/routes/Portfolio.jsx",
+    lineNumber: 4,
+    columnNumber: 9
+  }, this) }, void 0, !1, {
+    fileName: "app/routes/Portfolio.jsx",
+    lineNumber: 3,
+    columnNumber: 9
+  }, this);
+}
+
+// app/routes/Contact.jsx
+var Contact_exports = {};
+__export(Contact_exports, {
+  default: () => Contact
+});
+import { Fragment as Fragment2, jsxDEV as jsxDEV5 } from "react/jsx-dev-runtime";
+function Contact() {
+  return /* @__PURE__ */ jsxDEV5(Fragment2, { children: /* @__PURE__ */ jsxDEV5("section", { children: /* @__PURE__ */ jsxDEV5("h1", { children: "This is contact Page" }, void 0, !1, {
+    fileName: "app/routes/Contact.jsx",
+    lineNumber: 5,
+    columnNumber: 17
+  }, this) }, void 0, !1, {
+    fileName: "app/routes/Contact.jsx",
+    lineNumber: 4,
+    columnNumber: 9
+  }, this) }, void 0, !1, {
+    fileName: "app/routes/Contact.jsx",
+    lineNumber: 3,
+    columnNumber: 9
+  }, this);
+}
+
+// app/routes/About.jsx
+var About_exports = {};
+__export(About_exports, {
+  default: () => About
+});
+import { Fragment as Fragment3, jsxDEV as jsxDEV6 } from "react/jsx-dev-runtime";
+function About() {
+  return /* @__PURE__ */ jsxDEV6(Fragment3, { children: /* @__PURE__ */ jsxDEV6("section", { children: /* @__PURE__ */ jsxDEV6("h1", { children: "This is About Page" }, void 0, !1, {
+    fileName: "app/routes/About.jsx",
+    lineNumber: 5,
+    columnNumber: 17
+  }, this) }, void 0, !1, {
+    fileName: "app/routes/About.jsx",
+    lineNumber: 4,
+    columnNumber: 9
+  }, this) }, void 0, !1, {
+    fileName: "app/routes/About.jsx",
+    lineNumber: 3,
+    columnNumber: 9
+  }, this);
+}
+
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-B2RWP4H5.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-7F7DD34L.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-2SUH2MHH.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-R2KDPJCD.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "8e3512ce", hmr: { runtime: "/build/_shared\\chunk-2SUH2MHH.js", timestamp: 1708081580414 }, url: "/build/manifest-8E3512CE.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-UARJDEWC.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-MNP5KT47.js", "/build/_shared/chunk-2SUH2MHH.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-ILJH2PLH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/About": { id: "routes/About", parentId: "root", path: "About", index: void 0, caseSensitive: void 0, module: "/build/routes/About-RKE3ELRF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/Contact": { id: "routes/Contact", parentId: "root", path: "Contact", index: void 0, caseSensitive: void 0, module: "/build/routes/Contact-FXZAILN2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/Portfolio": { id: "routes/Portfolio", parentId: "root", path: "Portfolio", index: void 0, caseSensitive: void 0, module: "/build/routes/Portfolio-H3733UC7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "d6ce3893", hmr: { runtime: "/build/_shared\\chunk-2SUH2MHH.js", timestamp: 1708082039691 }, url: "/build/manifest-D6CE3893.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "development", assetsBuildDirectory = "public\\build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1 }, publicPath = "/build/", entry = { module: entry_server_node_exports }, routes = {
@@ -273,6 +339,30 @@ var mode = "development", assetsBuildDirectory = "public\\build", future = { v3_
     index: void 0,
     caseSensitive: void 0,
     module: root_exports
+  },
+  "routes/Portfolio": {
+    id: "routes/Portfolio",
+    parentId: "root",
+    path: "Portfolio",
+    index: void 0,
+    caseSensitive: void 0,
+    module: Portfolio_exports
+  },
+  "routes/Contact": {
+    id: "routes/Contact",
+    parentId: "root",
+    path: "Contact",
+    index: void 0,
+    caseSensitive: void 0,
+    module: Contact_exports
+  },
+  "routes/About": {
+    id: "routes/About",
+    parentId: "root",
+    path: "About",
+    index: void 0,
+    caseSensitive: void 0,
+    module: About_exports
   }
 };
 export {

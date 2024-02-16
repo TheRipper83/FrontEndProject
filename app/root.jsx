@@ -26,7 +26,7 @@ import {
     },
   ];
   export default function App() {
-    const menuItems = ['Portfolio', 'About us',"Contact"];
+    const menuItems = ['Portfolio', 'About',"Contact"];
     return (
       <html>
         <head>

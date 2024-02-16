@@ -2,17 +2,17 @@ import {
   require_client
 } from "/build/_shared/chunk-ZWGWGGVF.js";
 import {
+  RemixBrowser
+} from "/build/_shared/chunk-MNP5KT47.js";
+import "/build/_shared/chunk-2SUH2MHH.js";
+import "/build/_shared/chunk-UWV35TSL.js";
+import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-XU7DNSPJ.js";
-import {
-  RemixBrowser
-} from "/build/_shared/chunk-7F7DD34L.js";
 import "/build/_shared/chunk-GIAAE3CH.js";
 import {
   require_react
 } from "/build/_shared/chunk-BOXFZXVX.js";
-import "/build/_shared/chunk-2SUH2MHH.js";
-import "/build/_shared/chunk-UWV35TSL.js";
 import {
   __toESM
 } from "/build/_shared/chunk-PNG5AS42.js";
@@ -35,4 +35,4 @@ var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
     }, this)
   );
 });
-//# sourceMappingURL=/build/entry.client-B2RWP4H5.js.map
+//# sourceMappingURL=/build/entry.client-UARJDEWC.js.map
