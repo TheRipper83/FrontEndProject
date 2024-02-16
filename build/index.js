@@ -131,7 +131,7 @@ import {
 } from "@remix-run/react";
 
 // app/styles/app.css
-var app_default = "/build/_assets/app-7UMQHG53.css";
+var app_default = "/build/_assets/app-6SD7IUJB.css";
 
 // app/components/TheHeader/TheHeader.jsx
 import { jsxDEV as jsxDEV2 } from "react/jsx-dev-runtime";
@@ -206,69 +206,264 @@ function App() {
         !1,
         {
           fileName: "app/root.jsx",
-          lineNumber: 33,
+          lineNumber: 35,
           columnNumber: 11
         },
         this
       ),
       /* @__PURE__ */ jsxDEV3(Meta, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 37,
+        lineNumber: 39,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ jsxDEV3(Links, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 38,
+        lineNumber: 40,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 32,
+      lineNumber: 34,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ jsxDEV3("body", { children: [
       /* @__PURE__ */ jsxDEV3(TheHeader, { title: "Hossein", menuItems: ["Portfolio", "About", "Contact"] }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 41,
+        lineNumber: 43,
         columnNumber: 13
-      }, this),
-      /* @__PURE__ */ jsxDEV3("h1", { children: "Hello world!" }, void 0, !1, {
-        fileName: "app/root.jsx",
-        lineNumber: 42,
-        columnNumber: 11
       }, this),
       /* @__PURE__ */ jsxDEV3(Outlet, {}, void 0, !1, {
-        fileName: "app/root.jsx",
-        lineNumber: 43,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ jsxDEV3("section", { className: "project-card", children: /* @__PURE__ */ jsxDEV3("img", { src: tlou_default, alt: "pic" }, void 0, !1, {
-        fileName: "app/root.jsx",
-        lineNumber: 45,
-        columnNumber: 13
-      }, this) }, void 0, !1, {
         fileName: "app/root.jsx",
         lineNumber: 44,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ jsxDEV3(Scripts, {}, void 0, !1, {
+      /* @__PURE__ */ jsxDEV3("section", { className: "project-card", children: /* @__PURE__ */ jsxDEV3("img", { src: tlou_default, alt: "pic" }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 46,
+        columnNumber: 13
+      }, this) }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 45,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ jsxDEV3("section", { className: "project-card", children: /* @__PURE__ */ jsxDEV3("img", { src: tlou_default, alt: "pic" }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 49,
+        columnNumber: 13
+      }, this) }, void 0, !1, {
         fileName: "app/root.jsx",
         lineNumber: 48,
         columnNumber: 11
       }, this),
+      /* @__PURE__ */ jsxDEV3("section", { className: "project-card", children: /* @__PURE__ */ jsxDEV3("img", { src: tlou_default, alt: "pic" }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 52,
+        columnNumber: 13
+      }, this) }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 51,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ jsxDEV3(TheHeader, { title: "Featured", menuItems: ["see all"] }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 54,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV3("section", { children: /* @__PURE__ */ jsxDEV3("div", { className: "container projects", children: /* @__PURE__ */ jsxDEV3("ul", { className: "projects__list", children: [
+        /* @__PURE__ */ jsxDEV3("li", { className: "project-list__item", children: /* @__PURE__ */ jsxDEV3("article", { class: "project-card", children: [
+          /* @__PURE__ */ jsxDEV3("figure", { class: "project-card__figure", children: /* @__PURE__ */ jsxDEV3(
+            "img",
+            {
+              src: "https://plus.unsplash.com/premium_photo-1682436568953-f0a0b0d5cdff?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGhvbmUlMjBhcHB8ZW58MHx8MHx8fDA%3D",
+              alt: "A person holding an iPhone showcasing project 3",
+              class: "project-card__image"
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/root.jsx",
+              lineNumber: 61,
+              columnNumber: 45
+            },
+            this
+          ) }, void 0, !1, {
+            fileName: "app/root.jsx",
+            lineNumber: 60,
+            columnNumber: 41
+          }, this),
+          /* @__PURE__ */ jsxDEV3("div", { class: "project-card__container", children: /* @__PURE__ */ jsxDEV3("h3", { class: "project-card__title", children: "Project 3 - Mobile Payment App" }, void 0, !1, {
+            fileName: "app/root.jsx",
+            lineNumber: 67,
+            columnNumber: 45
+          }, this) }, void 0, !1, {
+            fileName: "app/root.jsx",
+            lineNumber: 66,
+            columnNumber: 41
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/root.jsx",
+          lineNumber: 59,
+          columnNumber: 37
+        }, this) }, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 58,
+          columnNumber: 33
+        }, this),
+        /* @__PURE__ */ jsxDEV3("li", { className: "project-list__item", children: /* @__PURE__ */ jsxDEV3("article", { class: "project-card", children: [
+          /* @__PURE__ */ jsxDEV3("figure", { class: "project-card__figure", children: /* @__PURE__ */ jsxDEV3(
+            "img",
+            {
+              src: "https://plus.unsplash.com/premium_photo-1682436568953-f0a0b0d5cdff?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGhvbmUlMjBhcHB8ZW58MHx8MHx8fDA%3D",
+              alt: "A person holding an iPhone showcasing project 3",
+              class: "project-card__image"
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/root.jsx",
+              lineNumber: 76,
+              columnNumber: 45
+            },
+            this
+          ) }, void 0, !1, {
+            fileName: "app/root.jsx",
+            lineNumber: 75,
+            columnNumber: 41
+          }, this),
+          /* @__PURE__ */ jsxDEV3("div", { class: "project-card__container", children: /* @__PURE__ */ jsxDEV3("h3", { class: "project-card__title", children: "Project 3 - Mobile Payment App" }, void 0, !1, {
+            fileName: "app/root.jsx",
+            lineNumber: 82,
+            columnNumber: 45
+          }, this) }, void 0, !1, {
+            fileName: "app/root.jsx",
+            lineNumber: 81,
+            columnNumber: 41
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/root.jsx",
+          lineNumber: 74,
+          columnNumber: 37
+        }, this) }, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 73,
+          columnNumber: 33
+        }, this),
+        /* @__PURE__ */ jsxDEV3("li", { className: "project-list__item", children: /* @__PURE__ */ jsxDEV3("article", { class: "project-card", children: [
+          /* @__PURE__ */ jsxDEV3("figure", { class: "project-card__figure", children: /* @__PURE__ */ jsxDEV3(
+            "img",
+            {
+              src: "https://plus.unsplash.com/premium_photo-1682436568953-f0a0b0d5cdff?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGhvbmUlMjBhcHB8ZW58MHx8MHx8fDA%3D",
+              alt: "A person holding an iPhone showcasing project 3",
+              class: "project-card__image"
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/root.jsx",
+              lineNumber: 91,
+              columnNumber: 45
+            },
+            this
+          ) }, void 0, !1, {
+            fileName: "app/root.jsx",
+            lineNumber: 90,
+            columnNumber: 41
+          }, this),
+          /* @__PURE__ */ jsxDEV3("div", { class: "project-card__container", children: /* @__PURE__ */ jsxDEV3("h3", { class: "project-card__title", children: "Project 3 - Mobile Payment App" }, void 0, !1, {
+            fileName: "app/root.jsx",
+            lineNumber: 97,
+            columnNumber: 45
+          }, this) }, void 0, !1, {
+            fileName: "app/root.jsx",
+            lineNumber: 96,
+            columnNumber: 41
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/root.jsx",
+          lineNumber: 89,
+          columnNumber: 37
+        }, this) }, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 88,
+          columnNumber: 33
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/root.jsx",
+        lineNumber: 57,
+        columnNumber: 21
+      }, this) }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 56,
+        columnNumber: 17
+      }, this) }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 55,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV3("footer", { children: /* @__PURE__ */ jsxDEV3("ul", { className: "footer__menu", children: [
+        /* @__PURE__ */ jsxDEV3("h3", { children: /* @__PURE__ */ jsxDEV3("a", { href: "/", rel: "home", className: "header__logo", children: "Hossein" }, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 108,
+          columnNumber: 25
+        }, this) }, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 108,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ jsxDEV3("li", { children: /* @__PURE__ */ jsxDEV3("a", { className: "header__menu-link", href: "#x.com", children: "Portfolio" }, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 109,
+          columnNumber: 25
+        }, this) }, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 109,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ jsxDEV3("li", { children: /* @__PURE__ */ jsxDEV3("a", { className: "header__menu-link", href: "#linkedin", children: "About" }, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 110,
+          columnNumber: 25
+        }, this) }, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 110,
+          columnNumber: 21
+        }, this),
+        /* @__PURE__ */ jsxDEV3("li", { children: /* @__PURE__ */ jsxDEV3("a", { className: "header__menu-link", href: "#facebook", children: "Contact" }, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 111,
+          columnNumber: 25
+        }, this) }, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 111,
+          columnNumber: 21
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/root.jsx",
+        lineNumber: 107,
+        columnNumber: 17
+      }, this) }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 106,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ jsxDEV3(Scripts, {}, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 114,
+        columnNumber: 11
+      }, this),
       /* @__PURE__ */ jsxDEV3(LiveReload, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 49,
+        lineNumber: 115,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 40,
+      lineNumber: 42,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/root.jsx",
-    lineNumber: 31,
+    lineNumber: 33,
     columnNumber: 5
   }, this);
 }
@@ -340,7 +535,7 @@ function About() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-UARJDEWC.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-MNP5KT47.js", "/build/_shared/chunk-2SUH2MHH.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-GKAK5JA4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/About": { id: "routes/About", parentId: "root", path: "About", index: void 0, caseSensitive: void 0, module: "/build/routes/About-RKE3ELRF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/Contact": { id: "routes/Contact", parentId: "root", path: "Contact", index: void 0, caseSensitive: void 0, module: "/build/routes/Contact-FXZAILN2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/Portfolio": { id: "routes/Portfolio", parentId: "root", path: "Portfolio", index: void 0, caseSensitive: void 0, module: "/build/routes/Portfolio-H3733UC7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "05b7f794", hmr: { runtime: "/build/_shared\\chunk-2SUH2MHH.js", timestamp: 1708084479668 }, url: "/build/manifest-05B7F794.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-UARJDEWC.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-MNP5KT47.js", "/build/_shared/chunk-2SUH2MHH.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-KM4CG6EN.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/About": { id: "routes/About", parentId: "root", path: "About", index: void 0, caseSensitive: void 0, module: "/build/routes/About-RKE3ELRF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/Contact": { id: "routes/Contact", parentId: "root", path: "Contact", index: void 0, caseSensitive: void 0, module: "/build/routes/Contact-FXZAILN2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/Portfolio": { id: "routes/Portfolio", parentId: "root", path: "Portfolio", index: void 0, caseSensitive: void 0, module: "/build/routes/Portfolio-H3733UC7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "947f1558", hmr: { runtime: "/build/_shared\\chunk-2SUH2MHH.js", timestamp: 1708094167203 }, url: "/build/manifest-947F1558.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "development", assetsBuildDirectory = "public\\build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1 }, publicPath = "/build/", entry = { module: entry_server_node_exports }, routes = {
