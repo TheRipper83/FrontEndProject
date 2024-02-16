@@ -62,7 +62,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\TheHeader\\TheHeader.jsx"
   );
-  import.meta.hot.lastModified = "1708081579959.2737";
+  import.meta.hot.lastModified = "1708115876112.0264";
 }
 function TheHeader({
   title,
@@ -209,7 +209,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\Figure.jsx"
   );
-  import.meta.hot.lastModified = "1708099033641.4453";
+  import.meta.hot.lastModified = "1708099434017.6516";
 }
 function Figure(props) {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("figure", { class: "project-card__figure", children: [
@@ -491,4 +491,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-6KVDR45K.js.map
+//# sourceMappingURL=/build/root-RI5TT7PG.js.map
