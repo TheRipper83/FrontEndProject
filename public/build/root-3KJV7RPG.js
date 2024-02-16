@@ -41,7 +41,7 @@ var require_pic3 = __commonJS({
 });
 
 // app/styles/app.css
-var app_default = "/build/_assets/app-FADHCLGB.css";
+var app_default = "/build/_assets/app-QMGPOQKY.css";
 
 // app/components/TheHeader/TheHeader.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
@@ -62,7 +62,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\TheHeader\\TheHeader.jsx"
   );
-  import.meta.hot.lastModified = "1708115876112.0264";
+  import.meta.hot.lastModified = "1708118764535.127";
 }
 function TheHeader({
   title,
@@ -214,7 +214,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\Figure.jsx"
   );
-  import.meta.hot.lastModified = "1708117745430.058";
+  import.meta.hot.lastModified = "1708118765225.2507";
 }
 function Figure(props) {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("figure", { class: "project-card__figure", children: [
@@ -264,7 +264,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\Article.jsx"
   );
-  import.meta.hot.lastModified = "1708099030374.071";
+  import.meta.hot.lastModified = "1708118765877.2175";
 }
 function Article1(props) {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("article", { class: "project-card", children: [
@@ -328,6 +328,9 @@ $RefreshReg$(_c5, "PicLoop");
 window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 
+// app/Images/welcomeimage.png
+var welcomeimage_default = "/build/_assets/welcomeimage-7CVT4XJY.png";
+
 // app/root.jsx
 var import_jsx_dev_runtime6 = __toESM(require_jsx_dev_runtime(), 1);
 if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
@@ -378,139 +381,162 @@ function App() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("link", { rel: "icon", href: "data:image/x-icon;base64,AA" }, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 59,
+        lineNumber: 60,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Meta, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 61,
+        lineNumber: 62,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Links, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 62,
+        lineNumber: 63,
         columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 58,
+      lineNumber: 59,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("body", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(TheHeader, { title: "Hossein", menuItems }, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 65,
+        lineNumber: 66,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Outlet, {}, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 66,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("section", { className: "project-card", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: import_tlou.default, alt: "pic" }, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 68,
-        columnNumber: 13
-      }, this) }, void 0, false, {
         fileName: "app/root.jsx",
         lineNumber: 67,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("section", { className: "project-card", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: import_tlou.default, alt: "pic" }, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 71,
+        lineNumber: 69,
         columnNumber: 13
       }, this) }, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 70,
+        lineNumber: 68,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("main", { class: "welcome", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { class: "welcometext", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h4", { class: "welcome", children: "Welcome" }, void 0, false, {
+            fileName: "app/root.jsx",
+            lineNumber: 73,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h2", { children: "Welcome to Arch Studio" }, void 0, false, {
+            fileName: "app/root.jsx",
+            lineNumber: 74,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi excepturi ad, vel porro fuga libero quod nostrum eveniet odio, cum sapiente reiciendis tenetur nesciunt amet dolorum, voluptatibus iste sit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quibusdam quia aliquid ab culpa porro, ducimus sunt officiis quas cumque laboriosam, consequatur dolorum illum facere, et praesentium autem illo maxime?" }, void 0, false, {
+            fileName: "app/root.jsx",
+            lineNumber: 75,
+            columnNumber: 17
+          }, this)
+        ] }, void 0, true, {
+          fileName: "app/root.jsx",
+          lineNumber: 72,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: welcomeimage_default, alt: "", class: "welcomeimage" }, void 0, false, {
+          fileName: "app/root.jsx",
+          lineNumber: 77,
+          columnNumber: 13
+        }, this)
+      ] }, void 0, true, {
+        fileName: "app/root.jsx",
+        lineNumber: 71,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("aside", { class: "project-card", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: import_tlou.default, alt: "pic" }, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 74,
+          lineNumber: 80,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { class: "aboutuscontent", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h2", { class: "aboutustext", children: "Small Team," }, void 0, false, {
             fileName: "app/root.jsx",
-            lineNumber: 76,
+            lineNumber: 82,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h2", { class: "aboutustext", children: "big ideas" }, void 0, false, {
             fileName: "app/root.jsx",
-            lineNumber: 77,
+            lineNumber: 83,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("button", { children: "About us" }, void 0, false, {
             fileName: "app/root.jsx",
-            lineNumber: 78,
+            lineNumber: 84,
             columnNumber: 17
           }, this)
         ] }, void 0, true, {
           fileName: "app/root.jsx",
-          lineNumber: 75,
+          lineNumber: 81,
           columnNumber: 13
         }, this)
       ] }, void 0, true, {
         fileName: "app/root.jsx",
-        lineNumber: 73,
+        lineNumber: 79,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("section", { className: "feature", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { class: "featuretitle", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h2", { children: "Featured" }, void 0, false, {
             fileName: "app/root.jsx",
-            lineNumber: 83,
+            lineNumber: 89,
             columnNumber: 19
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("button", { children: "See All" }, void 0, false, {
             fileName: "app/root.jsx",
-            lineNumber: 84,
+            lineNumber: 90,
             columnNumber: 19
           }, this)
         ] }, void 0, true, {
           fileName: "app/root.jsx",
-          lineNumber: 82,
+          lineNumber: 88,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "futurecards", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(PicLoop, { pics }, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 87,
+          lineNumber: 93,
           columnNumber: 15
         }, this) }, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 86,
+          lineNumber: 92,
           columnNumber: 13
         }, this)
       ] }, void 0, true, {
         fileName: "app/root.jsx",
-        lineNumber: 81,
+        lineNumber: 87,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(TheFooter, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 92,
+        lineNumber: 98,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Scripts, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 93,
+        lineNumber: 99,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(LiveReload, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 94,
+        lineNumber: 100,
         columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 64,
+      lineNumber: 65,
       columnNumber: 9
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.jsx",
-    lineNumber: 57,
+    lineNumber: 58,
     columnNumber: 10
   }, this);
 }
@@ -524,4 +550,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-3N4N7QN6.js.map
+//# sourceMappingURL=/build/root-3KJV7RPG.js.map

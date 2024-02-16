@@ -15,7 +15,7 @@ import {
   import Figure from "./components/Figure";
   import Article from "./components/Article";
   import PicLoop from "./components/PicLoop";
-  
+  import welcome from "./Images/welcomeimage.png"
   
   export const meta = () => [
     {
@@ -57,9 +57,14 @@ import {
           <section className="project-card">
             <img src={pic1} alt="pic" />
           </section>
-          <section className="project-card">
-            <img src={pic1} alt="pic" />
-          </section>
+          <main class="welcome">
+            <div class="welcometext">
+                <h4 class="welcome">Welcome</h4>
+                <h2>Welcome to Arch Studio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi excepturi ad, vel porro fuga libero quod nostrum eveniet odio, cum sapiente reiciendis tenetur nesciunt amet dolorum, voluptatibus iste sit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quibusdam quia aliquid ab culpa porro, ducimus sunt officiis quas cumque laboriosam, consequatur dolorum illum facere, et praesentium autem illo maxime?</p>
+            </div>
+            <img src={welcome} alt="" class="welcomeimage"/>
+        </main>
           <aside class="project-card">
             <img src={pic1} alt="pic"></img>
             <div class="aboutuscontent">

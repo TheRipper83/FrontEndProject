@@ -146,6 +146,8 @@ body.dark-theme {
 }
 
 body {
+    max-width: 1200px;
+    margin: 0 auto;
     background-color: var(--bkg-color1);
 
     /* line-height should never be 1, the linebox will be smaller than the content-area */

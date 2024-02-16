@@ -146,6 +146,8 @@ body.dark-theme {
   }
 }
 body {
+  max-width: 1200px;
+  margin: 0 auto;
   background-color: var(--bkg-color1);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
