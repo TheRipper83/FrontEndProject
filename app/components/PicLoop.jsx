@@ -6,19 +6,19 @@ export default function PicLoop({pics}) {
 
     return (
 
-        <section>
-                <div className="container projects">
-                    <ul className="projects__list"> 
+        <div className="featurecards">
+                
+                    
                         {pics.map((item, index) => {
-                        return <li key={index} className="project-list__item">
-                            <Article>
+                        return <li key={index}>
+                            
                                         <Figure image={item.url} desc={item.altt} caption={item.title}>
                                         </Figure>
-                                    </Article>
+                                    
                         </li>
                     })}   
-                    </ul>
-                </div>
-            </section>
+                    
+                
+            </div>
     );
 }

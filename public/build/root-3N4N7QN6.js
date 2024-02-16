@@ -41,7 +41,7 @@ var require_pic3 = __commonJS({
 });
 
 // app/styles/app.css
-var app_default = "/build/_assets/app-G7W57JUL.css";
+var app_default = "/build/_assets/app-FADHCLGB.css";
 
 // app/components/TheHeader/TheHeader.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
@@ -110,7 +110,7 @@ window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 
 // app/components/TheHeader/TheHeader.css
-var TheHeader_default = "/build/_assets/TheHeader-7MRZ5GIO.css";
+var TheHeader_default = "/build/_assets/TheHeader-JUZ2BQGQ.css";
 
 // app/root.jsx
 var import_tlou = __toESM(require_tlou(), 1);
@@ -134,7 +134,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\TheFooter.jsx"
   );
-  import.meta.hot.lastModified = "1708094529217.677";
+  import.meta.hot.lastModified = "1708117021210.511";
 }
 function TheFooter() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("footer", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("ul", { className: "footer__menu", children: [
@@ -173,6 +173,11 @@ function TheFooter() {
       fileName: "app/components/TheFooter.jsx",
       lineNumber: 27,
       columnNumber: 17
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("button", { class: "footerbutton", children: "See our Portfolio" }, void 0, false, {
+      fileName: "app/components/TheFooter.jsx",
+      lineNumber: 28,
+      columnNumber: 17
     }, this)
   ] }, void 0, true, {
     fileName: "app/components/TheFooter.jsx",
@@ -209,7 +214,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\Figure.jsx"
   );
-  import.meta.hot.lastModified = "1708099434017.6516";
+  import.meta.hot.lastModified = "1708117745430.058";
 }
 function Figure(props) {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("figure", { class: "project-card__figure", children: [
@@ -219,9 +224,13 @@ function Figure(props) {
       lineNumber: 23,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("figcaption", { className: `project-card__caption ${props.CapclassName}`, children: props.caption }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("figcaption", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h2", { children: props.caption }, void 0, false, {
       fileName: "app/components/Figure.jsx",
-      lineNumber: 24,
+      lineNumber: 26,
+      columnNumber: 17
+    }, this) }, void 0, false, {
+      fileName: "app/components/Figure.jsx",
+      lineNumber: 25,
       columnNumber: 13
     }, this)
   ] }, void 0, true, {
@@ -292,34 +301,22 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\PicLoop.jsx"
   );
-  import.meta.hot.lastModified = "1708099029146.623";
+  import.meta.hot.lastModified = "1708117934018.973";
 }
 function PicLoop({
   pics
 }) {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("section", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "container projects", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("ul", { className: "projects__list", children: pics.map((item, index) => {
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("li", { className: "project-list__item", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(Article1, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(Figure, { image: item.url, desc: item.altt, caption: item.title }, void 0, false, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "featurecards", children: pics.map((item, index) => {
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(Figure, { image: item.url, desc: item.altt, caption: item.title }, void 0, false, {
       fileName: "app/components/PicLoop.jsx",
       lineNumber: 32,
       columnNumber: 41
-    }, this) }, void 0, false, {
-      fileName: "app/components/PicLoop.jsx",
-      lineNumber: 31,
-      columnNumber: 29
     }, this) }, index, false, {
       fileName: "app/components/PicLoop.jsx",
       lineNumber: 30,
-      columnNumber: 18
+      columnNumber: 14
     }, this);
   }) }, void 0, false, {
-    fileName: "app/components/PicLoop.jsx",
-    lineNumber: 28,
-    columnNumber: 21
-  }, this) }, void 0, false, {
-    fileName: "app/components/PicLoop.jsx",
-    lineNumber: 27,
-    columnNumber: 17
-  }, this) }, void 0, false, {
     fileName: "app/components/PicLoop.jsx",
     lineNumber: 26,
     columnNumber: 10
@@ -428,46 +425,82 @@ function App() {
         lineNumber: 70,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("section", { className: "project-card", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: import_tlou.default, alt: "pic" }, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 74,
-        columnNumber: 13
-      }, this) }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("aside", { class: "project-card", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: import_tlou.default, alt: "pic" }, void 0, false, {
+          fileName: "app/root.jsx",
+          lineNumber: 74,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { class: "aboutuscontent", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h2", { class: "aboutustext", children: "Small Team," }, void 0, false, {
+            fileName: "app/root.jsx",
+            lineNumber: 76,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h2", { class: "aboutustext", children: "big ideas" }, void 0, false, {
+            fileName: "app/root.jsx",
+            lineNumber: 77,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("button", { children: "About us" }, void 0, false, {
+            fileName: "app/root.jsx",
+            lineNumber: 78,
+            columnNumber: 17
+          }, this)
+        ] }, void 0, true, {
+          fileName: "app/root.jsx",
+          lineNumber: 75,
+          columnNumber: 13
+        }, this)
+      ] }, void 0, true, {
         fileName: "app/root.jsx",
         lineNumber: 73,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(TheHeader, { title: "Featured", menuItems: ["see all"] }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("section", { className: "feature", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { class: "featuretitle", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h2", { children: "Featured" }, void 0, false, {
+            fileName: "app/root.jsx",
+            lineNumber: 83,
+            columnNumber: 19
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("button", { children: "See All" }, void 0, false, {
+            fileName: "app/root.jsx",
+            lineNumber: 84,
+            columnNumber: 19
+          }, this)
+        ] }, void 0, true, {
+          fileName: "app/root.jsx",
+          lineNumber: 82,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "futurecards", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(PicLoop, { pics }, void 0, false, {
+          fileName: "app/root.jsx",
+          lineNumber: 87,
+          columnNumber: 15
+        }, this) }, void 0, false, {
+          fileName: "app/root.jsx",
+          lineNumber: 86,
+          columnNumber: 13
+        }, this)
+      ] }, void 0, true, {
         fileName: "app/root.jsx",
-        lineNumber: 76,
-        columnNumber: 13
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("section", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "container projects", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(PicLoop, { pics }, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 79,
-        columnNumber: 21
-      }, this) }, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 78,
-        columnNumber: 17
-      }, this) }, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 77,
-        columnNumber: 13
+        lineNumber: 81,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(TheFooter, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 82,
+        lineNumber: 92,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Scripts, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 83,
+        lineNumber: 93,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(LiveReload, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 84,
+        lineNumber: 94,
         columnNumber: 11
       }, this)
     ] }, void 0, true, {
@@ -491,4 +524,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-RI5TT7PG.js.map
+//# sourceMappingURL=/build/root-3N4N7QN6.js.map

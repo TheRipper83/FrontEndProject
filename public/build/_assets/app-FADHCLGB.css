@@ -354,3 +354,104 @@ footer a {
     margin-left: var(--size-40);
   }
 }
+main {
+  grid-area: main;
+  display: flex;
+  position: relative;
+}
+main .welcometext h4 {
+  position: absolute;
+  top: -69px;
+  font-size: 150px;
+}
+main .welcometext h2 {
+  font-size: 40px;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+main .welcometext p {
+  font-size: 16px;
+  margin-left: 80px;
+}
+main .welcomeimage {
+  height: 400px;
+}
+footer {
+  grid-area: footer;
+  background-color: #d5d5d5;
+  display: flex;
+  position: relative;
+}
+footer img {
+  height: 200px;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer ul li {
+  color: #000;
+  margin-left: 32px;
+}
+footer button {
+  position: absolute;
+  right: 0;
+  top: 66px;
+  color: #f2f2f2;
+  background-color: #000;
+  font-size: 32px;
+  padding: 20px;
+}
+.feature {
+  grid-area: feat;
+}
+.feature .featuretitle {
+  display: flex;
+  justify-content: space-between;
+}
+.feature .featuretitle h2 {
+  color: #000;
+  font-size: 72px;
+}
+.feature .featuretitle button {
+  color: #f2f2f2;
+  background-color: #000;
+  font-size: 32px;
+  padding: 20px;
+}
+.feature .featurecards {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.feature .featurecards img {
+  height: 550px;
+}
+.feature .featurecards figcaption {
+  position: absolute;
+  left: 60px;
+  bottom: 50px;
+  color: #fff;
+  font-size: 32px;
+}
+aside {
+  grid-area: aside;
+  position: relative;
+}
+aside .aboutuscontent {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+aside .aboutuscontent h2 {
+  font-size: 90px;
+  color: #f2f2f2;
+}
+aside .aboutuscontent button {
+  margin-top: 20px;
+  color: #f2f2f2;
+  background-color: #000;
+  font-size: 32px;
+  padding: 20px;
+}

@@ -60,15 +60,25 @@ import {
           <section className="project-card">
             <img src={pic1} alt="pic" />
           </section>
-          <section className="project-card">
-            <img src={pic1} alt="pic" />
+          <aside class="project-card">
+            <img src={pic1} alt="pic"></img>
+            <div class="aboutuscontent">
+                <h2 class="aboutustext">Small Team,</h2>
+                <h2 class="aboutustext">big ideas</h2>
+                <button>About us</button>
+            </div>
+        </aside>
+          <section className="feature">
+            <div class="featuretitle">
+                  <h2>Featured</h2>
+                  <button>See All</button>
+            </div> 
+            <div className="futurecards">
+              <PicLoop pics={pics}/>
+            </div> 
           </section>
-            <TheHeader title="Featured" menuItems={["see all"]}/>   
-            <section>
-                <div className="container projects">
-                    <PicLoop pics={pics}/>
-                </div>
-            </section>
+          
+            
             <TheFooter/>
           <Scripts />
           <LiveReload />

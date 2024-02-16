@@ -406,3 +406,107 @@ Start by defining your styles for small screens first, and then use media querie
     }
     
 }
+main {
+    grid-area: main;
+    /* background-color: rgb(51, 255, 0); */
+    display: flex;
+    position: relative;
+}
+main .welcometext h4 {
+    position: absolute;
+    top: -69px;
+    font-size: 150px;
+}
+main .welcometext h2 {
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+main .welcometext p {
+    font-size: 16px;
+    margin-left: 80px;
+}
+main .welcomeimage {
+    height: 400px;
+}
+footer {
+    grid-area: footer;
+    background-color: rgb(213, 213, 213);
+    display: flex;
+    position: relative;
+}
+footer img {
+    height: 200px;
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+footer ul li {
+    color:black;
+    margin-left: 32px;
+}
+footer button {
+    position: absolute;
+    right: 0px;
+    top: 66px;
+    color: #f2f2f2;
+    background-color: black;
+    font-size: 32px;
+    padding: 20px;  
+}
+.feature {
+    grid-area: feat;
+    /* background-color: rgb(84, 5, 254); */
+}
+.feature .featuretitle {
+    display: flex;
+    justify-content: space-between;
+}
+.feature .featuretitle h2 {
+    color: black;
+    font-size: 72px;
+}
+.feature .featuretitle button {
+    color: #f2f2f2;
+    background-color: black;
+    font-size: 32px;
+    padding: 20px;    
+}
+.feature .featurecards {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.feature .featurecards img {
+    height: 550px;
+}
+.feature .featurecards figcaption {
+    position: absolute;
+    left: 60px;
+    bottom: 50px;
+    color: white;
+    font-size: 32px;
+}
+aside {
+    grid-area: aside;
+    /* background-color: rgb(28, 5, 5); */
+    position: relative;
+}
+aside .aboutuscontent {
+    position: absolute;
+    left: 50px;
+    top:50px;
+}
+aside .aboutuscontent h2 {
+    font-size: 90px;
+    color: #f2f2f2;
+}
+aside .aboutuscontent  button {
+    margin-top: 20px;
+    color: #f2f2f2;
+    background-color: black;
+    font-size: 32px;
+    padding: 20px;
+}
