@@ -250,20 +250,9 @@ button {
 
 
 .projects {
-    /* We first create a flex layout context */
     display: flex;
-    
-    /* Then we define the flow direction 
-        and if we allow the items to wrap 
-    * Remember this is the same as:
-    * flex-direction: row;
-    * flex-wrap: wrap;
-    */
     flex-flow: column;
-    
-    /* Then we define how is distributed the remaining space */
     justify-content: flex-start;
-
     overflow:hidden;    
 }
 
@@ -282,7 +271,6 @@ button {
 .project-card__title {
     color: var(--primary-text-color);
     margin-bottom: var(--size-60);
-    /*border: 1px solid #ff00ff;*/
 }
 
 .project-card__description {
@@ -350,15 +338,23 @@ footer a {
     background-color: var(--bkg-color3);
 }
 
-/*
-Start by defining your styles for small screens first, and then use media queries to enhance or modify styles for larger screens. This approach is called mobile-first design and is often recommended for responsive web development.
-*/
 
-@media (min-width: 600px) {  
+@media (max-width: 600px) {  
     .header__menu {
         flex-flow: row wrap; 
         justify-content: space-around;
     }
+    .featurecards{
+        flex-flow: row wrap; 
+        justify-content: space-around;
+    }
+    .header__menu{
+        flex-direction: column;
+    }
+    footer button{
+        margin-top: 120px;
+    }
+    
 
     .projects__list {
         list-style: none;
@@ -406,11 +402,10 @@ Start by defining your styles for small screens first, and then use media querie
         flex: 0;
         margin-left: var(--size-40);
     }
-    
+  
 }
 main {
     grid-area: main;
-    /* background-color: rgb(51, 255, 0); */
     display: flex;
     position: relative;
 }
@@ -460,7 +455,6 @@ footer button {
 }
 .feature {
     grid-area: feat;
-    /* background-color: rgb(84, 5, 254); */
 }
 .feature .featuretitle {
     display: flex;
@@ -495,7 +489,6 @@ footer button {
 }
 aside {
     grid-area: aside;
-    /* background-color: rgb(28, 5, 5); */
     position: relative;
 }
 aside .aboutuscontent {

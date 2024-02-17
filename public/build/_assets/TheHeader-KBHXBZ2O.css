@@ -23,7 +23,7 @@
   text-decoration: none;
   color: var(--primary-text-color);
 }
-@media (min-width: 601px) {
+@media (max-width: 601px) {
   .header__menu {
     flex-flow: row wrap;
     justify-content: space-around;

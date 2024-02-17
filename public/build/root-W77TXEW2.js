@@ -41,7 +41,7 @@ var require_pic3 = __commonJS({
 });
 
 // app/styles/app.css
-var app_default = "/build/_assets/app-YB5YS2DQ.css";
+var app_default = "/build/_assets/app-3LE6D7UD.css";
 
 // app/components/TheHeader/TheHeader.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
@@ -110,7 +110,7 @@ window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 
 // app/components/TheHeader/TheHeader.css
-var TheHeader_default = "/build/_assets/TheHeader-JUZ2BQGQ.css";
+var TheHeader_default = "/build/_assets/TheHeader-KBHXBZ2O.css";
 
 // app/root.jsx
 var import_tlou = __toESM(require_tlou(), 1);
@@ -741,4 +741,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-LN7GE74M.js.map
+//# sourceMappingURL=/build/root-W77TXEW2.js.map
